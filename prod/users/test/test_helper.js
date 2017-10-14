@@ -12,7 +12,6 @@ mongoose.connection
 	});
 });
 
-
 beforeEach((done) => {
 	const { users, comments, blogposts } = mongoose.connection.collections;
 	users.drop(() => {
